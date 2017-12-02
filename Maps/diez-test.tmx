@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Floor" tilewidth="16" tileheight="16" tilecount="819" columns="21">
+  <image source="Dawnlike/Objects/Floor.png" width="336" height="624"/>
+  <tile id="63">
+   <objectgroup draworder="index">
+    <object id="4" x="4" y="4">
+     <polyline points="0,0 12,0 12,-4 -4,-4 -4,11 -4,12 0,12 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="820" source="Character/Demon-0.tsx"/>
+ <layer name="Kachelebene 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAQBEGXBvQA9GDcf+wPPyJw8kjMSJvftQYAAPzdFu2po3TNujO6UnftnGV+fEuPntSonQMAAAAAALyYB0wIZw==
+  </data>
+ </layer>
+</map>
