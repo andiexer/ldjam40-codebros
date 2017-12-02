@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 663}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 613}
   m_MaxSize: {x: 14004, y: 18063}
   vertical: 0
-  controlID: 140
+  controlID: 120
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 613}
   m_MaxSize: {x: 10002, y: 18063}
   vertical: 1
-  controlID: 75
+  controlID: 96
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 76
+  controlID: 50
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,15 +338,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 397
+    x: 381
     y: 92
-    width: 1196
-    height: 591
+    width: 1148
+    height: 405
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107356320832980636, guid: c34578479da7c1d4c9fe00d2e0393db9, type: 2}
     m_ValueSerializationHelper:
-    - {x: 667.60004, y: 316.19995}
+    - {x: 638.80005, y: 223.00002}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
   m_BreadCrumbs: []
@@ -382,10 +382,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 397
+    x: 381
     y: 92
-    width: 1196
-    height: 591
+    width: 1148
+    height: 405
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -424,19 +424,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Tiled2Unity/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/Tiled2Unity/Prefabs
+  - Assets/Ufo
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\Waldi\Dropbox\CodeBros\ldjam40-codebros-feature_movement\src\CodeBrosLDJam40
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e290000
-    m_LastClickedID: 10510
-    m_ExpandedIDs: 000000007827000020280000ffffff7f
+    m_SelectedIDs: c6270000
+    m_LastClickedID: 10182
+    m_ExpandedIDs: 000000008e270000c6270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -464,7 +464,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007827000020280000
+    m_ExpandedIDs: 000000008e270000c6270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000762800002e270000
+    m_ExpandedInstanceIDs: c6230000762800002e2700009e360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 61
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 203
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -545,7 +545,7 @@ MonoBehaviour:
     y: 92
     width: 387
     height: 926
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 130.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -580,9 +580,9 @@ MonoBehaviour:
     height: 405
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94290000
-    m_LastClickedID: 10644
-    m_ExpandedIDs: 1ef0ffff24f0ffffa6fbffff000000009e290000
+    m_SelectedIDs: e22e0000
+    m_LastClickedID: 12002
+    m_ExpandedIDs: aa9fffffac9fffffae9fffff68aaffff36b8fffff0c1ffffe2d3ffffc4edffffd0edffffd4edffffdef7ffffa0fbffff00000000762d0000242e0000f02e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,7 +601,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - Main
+  - test
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -632,14 +632,14 @@ MonoBehaviour:
     width: 1148
     height: 405
   m_SceneLighting: 1
-  lastFramingTime: 79.08674168218955
+  lastFramingTime: 282.26885078032655
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.638045, y: 1.6275988, z: -0.37498274}
+    m_Target: {x: 0.46779662, y: -8.607317, z: -10}
     speed: 2
-    m_Value: {x: -4.638045, y: 1.6275988, z: -0.37498274}
+    m_Value: {x: 0.46779662, y: -8.607317, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -666,9 +666,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 40.366375
+    m_Target: 22
     speed: 2
-    m_Value: 40.366375
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
