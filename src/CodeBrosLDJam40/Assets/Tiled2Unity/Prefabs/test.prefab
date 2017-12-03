@@ -292,11 +292,7 @@ MonoBehaviour:
   ExportScale: 1
   MapWidthInPixels: 640
   MapHeightInPixels: 640
-  BackgroundColor:
-    r: 0.5019608
-    g: 0.5019608
-    b: 0.5019608
-    a: 1
+  BackgroundColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
 --- !u!114 &114500065915681408
 MonoBehaviour:
   m_ObjectHideFlags: 1
