@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
 {
 
     public float moveSpeed;
+    public int ammo;
+
+    public GameObject bullet;
 
     private Animator _anim;
     private bool _playerMoving;
@@ -17,6 +20,7 @@ public class PlayerController : MonoBehaviour
 	{
 	    _anim = GetComponent<Animator>();
 	    _rigidbody2D = GetComponent<Rigidbody2D>();
+        ammo = 100;
 	}
 	
 	// Update is called once per frame
@@ -55,5 +59,65 @@ public class PlayerController : MonoBehaviour
         _anim.SetBool("PlayerMoving", _playerMoving);
         _anim.SetFloat("LastMoveX", _lastMove.x);
 	    _anim.SetFloat("LastMoveY", _lastMove.y);
+
+        //added the fire code:
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (ammo <= 0)
+            {
+
+            }
+            else
+            {
+                GameObject go = (GameObject)Instantiate(bullet, transform.position, Quaternion.identity);
+                go.GetComponent<Bullet>().xSpeed = 0.1f;
+                ammo--;
+                Debug.Log("Ammo -1 " + ammo);
+            }
+
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (ammo <= 0)
+            {
+
+            }
+            else
+            {
+                GameObject go = (GameObject)Instantiate(bullet, transform.position, Quaternion.identity);
+                go.GetComponent<Bullet>().ySpeed = -0.1f;
+                ammo--;
+                Debug.Log("Ammo -1 " + ammo);
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (ammo <= 0)
+            {
+
+            }
+            else
+            {
+                GameObject go = (GameObject)Instantiate(bullet, transform.position, Quaternion.identity);
+                go.GetComponent<Bullet>().ySpeed = 0.1f;
+                ammo--;
+                Debug.Log("Ammo -1 " + ammo);
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (ammo <= 0)
+            {
+
+            }
+            else
+            {
+                GameObject go = (GameObject)Instantiate(bullet, transform.position, Quaternion.identity);
+                go.GetComponent<Bullet>().xSpeed = -0.1f;
+                ammo--;
+                Debug.Log("Ammo -1 " + ammo);
+            }
+        }
     }
 }
