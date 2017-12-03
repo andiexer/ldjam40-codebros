@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HurtPlayer : MonoBehaviour {
+public class HurtPlayer : MonoBehaviour
+{
+
+    public int DamageToGive;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +21,7 @@ public class HurtPlayer : MonoBehaviour {
     {
         if (other.gameObject.name == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(Random.Range(0,10));
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(DamageToGive);
         }
     }
 }

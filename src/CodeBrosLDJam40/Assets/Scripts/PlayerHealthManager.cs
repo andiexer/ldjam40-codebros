@@ -19,6 +19,7 @@ public class PlayerHealthManager : MonoBehaviour
 	    if (playerCurrentHealth <= 0)
 	    {
 	        gameObject.SetActive(false);
+            Application.LoadLevel(Application.loadedLevel);
 	    }
 	}
 
